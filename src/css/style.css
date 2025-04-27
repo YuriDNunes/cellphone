@@ -1,20 +1,34 @@
-div.quadrado{
-    border: 1px solid black;
-    width: 250px;
-    height: 250px;
-    display: inline-block;
-    border-radius: 5px;
-    background-color: gray;
+@charset 'UTF-8';
+
+*{
+    margin: 0%;
+    padding: 0%;
 }
 
-div#q1{
-    background-image: url(../assets/img/pattern001.png);
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
 }
 
-div#q2{
-    background-image: url(../assets/img/pattern002.png);
+body{
+    background: url(../../assets/img/desafio013/fundo.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed
 }
 
-div#q3{
-    background-image: url(../assets/img/pattern003.png);
+main {
+    position: relative;
+    height: 100vh;
+}
+
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 627px;
+    width: 311px;
+    background: url(../../assets/img/desafio013/frame-iphone.png) no-repeat;
 }
